@@ -120,7 +120,7 @@
                     android:id="@+id/detail_about"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rise, Tarnished, and be guided by grace to bran
+                    android:text='Rise, Tarnished, and be guided by grace to bran
 dish the power of the elden Ring and become an
 Elde Lord in the Lands Between.
 
@@ -132,11 +132,13 @@ Marika’s offspring, demigods all, claimed the sha
 rds of the Elden Ring known as the Great Runes,
 and the mad taint of their newfound strength trig
 gered a war: The Shattering. A war that meant
-abandonment by the Greater"
+abandonment by the Greater'
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
             </LinearLayout>
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -190,6 +192,32 @@ abandonment by the Greater"
                 android:textSize="20sp"
                 android:layout_marginTop="9dp"
                 android:textStyle="bold|italic"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="22dp">
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="172dp"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="7dp"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="172dp"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="7dp"
+                app:srcCompat="@drawable/image1" />
+
+
 
         </LinearLayout>
 
